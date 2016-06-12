@@ -1,17 +1,35 @@
 # Changelog
 
-## 2.0.15 (2015-02-16)
+## 2.0.18 (2016-06-05)
+
+* Install open-vm-tools when kernel 4.1 or greater is present, now that
+  vagrant-vmware-fusion 4.0.9 plugin supports open-vm-tools
+* Upgrade VirtualBox guest additions to 5.0.20
+* Upgrade Parallels tools to 11.2.0
+* Upgrade VMware tools to 10.0.6 for VMware Fusion 8.1.1
+
+## 2.0.17 (2016-04-24)
+
+* Add Ubuntu 16.04 release box
+* Upgrade VirtualBox guest additions to 5.0.18
+* Unified template definitions
+
+## 2.0.16 (2016-04-06)
+
+* Add Ubuntu 16.04 beta box
+
+## 2.0.15 (2016-03-16)
 
 * Upgrade VirtualBox guest additions to 5.0.16
 
-## 2.0.14 (2015-02-19)
+## 2.0.14 (2016-02-19)
 
 * Upgrade to Ubuntu 14.04.4, except on VMware because hgfs isn't working
 * Upgrade VirtualBox guest additions to 5.0.14
 * Upgrade Parallels tools to 11.1.3
 * Upgrade Docker to 1.10.1
 
-## 2.0.13 (2015-01-07)
+## 2.0.13 (2016-01-07)
 
 * Upgrade Parallels tools to 11.1.2
 
